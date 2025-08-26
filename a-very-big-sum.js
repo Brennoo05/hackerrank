@@ -30,13 +30,13 @@ function readLine() {
  */
 
 function aVeryBigSum(ar) {
-    let longInt = 0;
+    let soma = 0;
     
     for (let i = 0; i < ar.length; i++){
-        longInt += ar [i]
+        soma += ar [i]
     }
     
-    return longInt;
+    return soma;
     // Write your code here
 
 }
@@ -54,3 +54,4 @@ function main() {
 
     ws.end();
 }
+
